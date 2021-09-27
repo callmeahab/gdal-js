@@ -98,17 +98,19 @@ EXPORTED_FUNCTIONS = "[\
   '_OGR_G_GetPointCount',\
   '_OGR_G_GetEnvelope',\
   '_OGR_G_GetSpatialReference',\
+  '_OGR_G_GetGeometryType',\
   '_OGR_G_Intersects',\
   '_OGR_G_Simplify',\
   '_OGR_G_Touches',\
   '_OGR_G_Transform',\
   '_OGR_G_Within',\
-  '_OGR_G_ExportToGML',\
+  '_OGR_G_Boundary',\
+  '_OGR_G_Buffer',\
   '_OGR_G_ExportToJson',\
-  '_OGR_G_ExportToJsonEx',\
   '_OGR_G_ExportToKML',\
   '_OGR_G_ExportToWkb',\
-  '_OGR_G_ExportToWkt'\
+  '_OGR_G_ExportToWkt',\
+  '_OGR_G_FlattenTo2D'\
 ]"
 
 EXPORTED_RUNTIME_FUNCTIONS="[\
